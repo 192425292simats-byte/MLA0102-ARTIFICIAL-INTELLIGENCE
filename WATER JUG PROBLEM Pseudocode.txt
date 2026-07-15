@@ -1,0 +1,14 @@
+Start.
+Initialize two jugs with capacities Jug1 = m liters and Jug2 = n liters.
+Fill either jug completely.
+Pour water from one jug to the other until:
+the source jug becomes empty, or
+the destination jug becomes full.
+If required, empty the full jug.
+Repeat the operations:
+Fill a jug.
+Empty a jug.
+Pour water from one jug to another.
+Continue until the desired quantity of water is obtained in either jug.
+Display the sequence of operations performed.
+Stop.
