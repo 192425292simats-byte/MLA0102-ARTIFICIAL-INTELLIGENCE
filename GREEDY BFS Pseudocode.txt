@@ -1,0 +1,15 @@
+Initialize the OPEN list with the start node.
+Initialize the CLOSED list as empty.
+Assign heuristic values to all nodes.
+While the OPEN list is not empty:
+Select the node with the smallest heuristic value.
+Remove it from OPEN.
+Add it to CLOSED.
+If it is the goal node:
+Display the path and stop.
+Otherwise:
+Generate successor nodes.
+For each successor:
+If it is not in OPEN or CLOSED, insert it into OPEN.
+Continue until the goal is reached.
+Print the path found by the greedy search.
