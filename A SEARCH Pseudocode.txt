@@ -1,0 +1,23 @@
+Start from the source node.
+Create an OPEN list and a CLOSED list.
+Insert the start node into OPEN with:
+g(n) = 0 (actual cost)
+h(n) (heuristic estimate)
+f(n) = g(n) + h(n)
+While OPEN is not empty:
+Select the node having the smallest f(n).
+Remove it from OPEN and add it to CLOSED.
+If it is the goal node:
+Display the optimal path and terminate.
+Otherwise:
+Generate all successor nodes.
+Compute:
+g(n) = actual path cost
+h(n) = heuristic value
+f(n) = g(n) + h(n)
+Update the successor if a better path is found.
+Add new successors to OPEN.
+Repeat until the goal is reached or OPEN becomes empty.
+Display the optimal path and its total cost.
+
+These algorithms are written in a simple, step-by-step format suitable for writing in an AI lab record.
