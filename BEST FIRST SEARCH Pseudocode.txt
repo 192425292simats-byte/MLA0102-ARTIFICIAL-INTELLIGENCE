@@ -1,0 +1,13 @@
+Start from the source node.
+Create an OPEN list and a CLOSED list.
+Insert the start node into the OPEN list.
+While the OPEN list is not empty:
+Select the node with the lowest heuristic value (h(n)) from the OPEN list.
+Remove it from OPEN and add it to CLOSED.
+If the selected node is the goal node:
+Stop and return the path.
+Otherwise:
+Generate all successor nodes.
+If a successor is not in OPEN or CLOSED, add it to OPEN.
+Repeat until the goal is found or OPEN becomes empty.
+Display the shortest path based on heuristic values.
