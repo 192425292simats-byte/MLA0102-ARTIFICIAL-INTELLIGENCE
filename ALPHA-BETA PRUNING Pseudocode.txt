@@ -1,0 +1,15 @@
+Start from the root node of the game tree.
+If the node is a terminal node or maximum depth is reached, return its evaluation value.
+Initialize:
+Alpha = -∞ (best value for Maximizer)
+Beta = +∞ (best value for Minimizer)
+If it is the Maximizer's turn:
+Find the maximum value among child nodes.
+Update Alpha with the maximum value.
+If Alpha ≥ Beta, stop exploring the remaining branches (Prune).
+If it is the Minimizer's turn:
+Find the minimum value among child nodes.
+Update Beta with the minimum value.
+If Beta ≤ Alpha, stop exploring the remaining branches (Prune).
+Return the best value.
+The AI selects the optimal move while skipping unnecessary branches.
