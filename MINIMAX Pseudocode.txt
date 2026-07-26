@@ -1,0 +1,14 @@
+Start from the current game state.
+If the game is over or the maximum depth is reached, return the evaluation score.
+If it is the AI's turn (Maximizer):
+Set the best value to -∞.
+Check all possible moves.
+Apply each move and call Minimax for the opponent.
+Choose the maximum value.
+If it is the opponent's turn (Minimizer):
+Set the best value to +∞.
+Check all possible moves.
+Apply each move and call Minimax for the AI.
+Choose the minimum value.
+Return the best score.
+The AI selects the move with the highest score.
