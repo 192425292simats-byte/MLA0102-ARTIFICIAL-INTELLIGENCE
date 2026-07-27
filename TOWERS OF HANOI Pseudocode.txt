@@ -1,0 +1,5 @@
+If there is only one disk, move it from the Source to the Destination.
+Move the top n−1 disks from Source to Auxiliary.
+Move the largest disk from Source to Destination.
+Move the n−1 disks from Auxiliary to Destination.
+Repeat until all disks are moved.
