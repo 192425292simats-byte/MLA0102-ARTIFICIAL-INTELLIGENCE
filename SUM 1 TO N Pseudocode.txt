@@ -1,0 +1,7 @@
+Start.
+Read the value of N.
+If N == 0, return 0 (base case).
+Otherwise, return N + sum(N-1).
+Repeat until N becomes 0.
+Display the sum.
+Stop.
