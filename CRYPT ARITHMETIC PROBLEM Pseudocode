@@ -1,0 +1,8 @@
+Start.
+Identify the unique letters in SEND + MORE = MONEY.
+Assign different digits from 0–9 to each letter.
+Ensure S and M are not zero.
+Convert the words into numbers using the assigned digits.
+Check whether SEND + MORE = MONEY.
+If the equation is correct, display the digit assignment.
+Stop.
