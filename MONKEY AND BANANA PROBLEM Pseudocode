@@ -1,0 +1,8 @@
+Start with the initial position of the monkey, box, and banana.
+Check if the monkey can directly reach the banana.
+If the banana is high, move the box below the banana.
+Push the box to the banana position.
+Climb onto the box.
+Monkey grabs the banana.
+Display the sequence of actions.
+Stop.
