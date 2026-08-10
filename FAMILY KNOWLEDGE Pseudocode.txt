@@ -1,0 +1,14 @@
+Step 1: Start the program.
+Step 2: Define family facts such as:
+Father of a person
+Mother of a person
+Step 3: Define logical rules:
+If X is father/mother of Y → X is the parent of Y.
+If X and Y have the same father → X and Y are siblings.
+If X and Y are siblings → they have a sibling relationship.
+If X is parent of Z and Z is parent of Y → X is grandparent of Y.
+Step 4: Load the program into SWI-Prolog.
+Step 5: Enter a query to find a relationship.
+Step 6: Prolog checks the given facts and applies the logical rules.
+Step 7: Display the inferred family relationship.
+Step 8: Stop.
