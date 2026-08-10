@@ -1,0 +1,17 @@
+1.Start
+2.Define the bird species as facts.
+3.Define the characteristics of each bird:
+Birds that can fly.
+Birds that cannot fly.
+4.Create a rule flies(X):
+Check whether X is a bird.
+Check whether X has the can_fly characteristic.
+If both are true, conclude that X can fly.
+5.Create a rule does_not_fly(X):
+Check whether X is a bird.
+Check whether X has the cannot_fly characteristic.
+If both are true, conclude that X cannot fly.
+6.Enter a bird name as a query.
+7.Apply the rules to infer whether the bird can fly or cannot fly.
+8.Display the result.
+9.Stop.
