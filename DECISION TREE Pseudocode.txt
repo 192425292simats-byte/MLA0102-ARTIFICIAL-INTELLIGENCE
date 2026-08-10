@@ -1,0 +1,9 @@
+Start
+Collect customer data: Age and Income.
+Store previous customer data and loan decisions.
+Create a Decision Tree Classifier.
+Train the model using the given data.
+Enter the new customer's Age and Income.
+Predict the loan status using the trained model.
+If prediction is 1, display Loan Approved.
+If prediction is 0, display Loan Rejected.
