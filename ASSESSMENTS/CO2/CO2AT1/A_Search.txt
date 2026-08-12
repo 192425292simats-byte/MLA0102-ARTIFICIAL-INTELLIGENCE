@@ -1,0 +1,6 @@
+Start with the source node.
+Calculate f(n)=g(n)+h(n).
+Select the node with the lowest f(n).
+Expand neighboring nodes.
+Repeat until the goal node is reached.
+Display the optimal path.
