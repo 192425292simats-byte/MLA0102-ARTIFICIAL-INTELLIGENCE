@@ -1,0 +1,9 @@
+Start
+Store the known symptoms as facts: fever, cough, body_pain.
+Store the diseases and their required symptoms as rules.
+Select each disease as a goal.
+Check whether all symptoms required for that disease are present in the facts.
+If all symptoms are present, print "Possible disease".
+If any symptom is missing, do not print that disease.
+Repeat for all diseases.
+Stop.
