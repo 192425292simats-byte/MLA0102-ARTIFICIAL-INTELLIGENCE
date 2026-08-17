@@ -1,0 +1,11 @@
+Start
+Initialize the known facts:
+computer_not_starting
+power_light_off
+Store the production rules.
+Check whether the conditions of each rule are present in the facts.
+If the conditions are satisfied, add the rule's conclusion to the facts.
+Print the newly derived fact.
+Continue checking the remaining rules.
+Finally, display all the facts.
+Stop.
