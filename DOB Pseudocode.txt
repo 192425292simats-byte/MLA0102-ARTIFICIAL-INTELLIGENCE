@@ -1,0 +1,7 @@
+Start.
+Store person names and their dates of birth as facts.
+Input a person's name.
+Search the knowledge base for the name.
+If found, display the date of birth.
+Otherwise, display Person not found.
+Stop.
