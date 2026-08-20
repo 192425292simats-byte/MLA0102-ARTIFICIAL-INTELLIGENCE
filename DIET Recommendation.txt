@@ -1,0 +1,6 @@
+Start
+Input age, BMI, and health condition.
+Check BMI and health condition using predefined rules.
+Select a suitable diet plan.
+Display the personalized diet recommendation.
+Stop.
